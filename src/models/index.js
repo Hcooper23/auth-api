@@ -1,8 +1,8 @@
 'use strict';
 
 const { Sequelize, DataTypes } = require('sequelize');
-const clothesModel = require('./clothes/model.js');
-const foodModel = require('./food/model.js');
+const clothesModel = require('./clothes/models.js');
+const foodModel = require('./food/models.js');
 const Collection = require('./data-collection.js');
 const userModel = require('../auth/models/users.js');
 
